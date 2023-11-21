@@ -1,0 +1,143 @@
+body {
+background-color: #FEF7E5;
+border: 10px solid #f9fdf9; 
+  }
+#navagation a.active {                        /*Changes and adds a color to the active/current link */
+background-color: #FF7875;
+border: solid 5px #FF7875;
+border-radius: 10px;
+color: white;
+font-size: large;
+text-decoration: none;
+font-family: serif;
+}
+
+#navagation{
+background-color: #FEF7E5;
+padding: 0;
+margin: 0;
+height: 105px;
+border: 5px solid #FF7875;
+line-height: 100px;
+}
+    
+#navagation ul{
+padding: 0;
+margin: 0;
+list-style-type: none;
+color: black;
+}
+    
+#navagation ul li{
+text-align: center;
+float:left;
+margin-left: 50px;
+padding-left: 10px;
+font-size: 15px
+}
+    
+.navlinks{
+color:black;
+font-size: large;
+text-decoration: none;
+font-family: serif
+}
+    
+.clear{
+clear:both;
+}
+    
+#logo{
+float: left;
+}
+    
+.navlinks:hover{
+color:#FF7875;
+text-decoration: underline;
+}
+
+.column {                            /*Edits the Side by Side*/
+border: double #FF7875 5px;
+text-align: center;
+margin-left:1%;
+float: left;
+width: 29%;
+padding:1px;
+margin-left: 1%;
+border-radius: 10px;
+}
+
+.row::after {
+display: flex;
+content: "";
+clear: both;
+display: table;
+}
+
+img {                                /*Edits the Image*/
+border: 0px double #FF7875;
+border-radius: 5px;
+background-color: #f9fdf9;
+}
+
+#big_photo{
+float: right;
+max-width: 50%;
+}
+
+.clear{
+clear: both;
+}
+
+#paragraph{                           /*Edits the paragraph*/
+margin-right: 6px;
+float:left;
+font-family:sans-serif;
+background-color: white;
+border: 10px solid #FF7875;
+margin-left: 10px;
+min-width: 47%;
+font-size: 20px;
+margin-top: 0px;
+min-height: 330px;
+}
+
+h1{
+font-family: serif;
+}
+
+.Header {                                 /*Changes big header*/
+  border: 10px solid  rgb(255, 255, 255);
+  background-color:#FF7875;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "serif";
+  width: auto;
+}
+
+.photo_paragraph{
+margin-top: 5px;
+display: flex;
+margin-bottom: 5px;
+}
+
+.mini_header {                                 /*Changes big header*/
+  border: 10px solid rgb(255, 255, 255);
+  background-color:#FF7875;
+  text-align: center;
+  height: 50px;
+  line-height: 50%;
+  color: rgb(255, 255, 255);
+  font-family: "serif";
+  width: auto;
+}
+
+.Footer {  
+  position: fixed;  
+  bottom: 5px;  
+  width: 100%;
+  background-color: rgb(116, 114, 114);  
+  color: black;  
+  text-align: center;
+  left: 0px;
+  }  
